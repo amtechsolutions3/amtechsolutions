@@ -18,7 +18,7 @@
 header {
     display: grid;
     grid-template-rows: 60% 40%;
-    background-image: url(/Images/tech_comp01-1920x1280-desfoq.png);
+    background-image: url(/Images/tech_comp01-900x600-desfoq.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,8 +37,6 @@ header>h1 {
     text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.397);
     text-align: center;
 }
-
-header>menu {}
 
 header>menu>nav>li {
     display: flex;
