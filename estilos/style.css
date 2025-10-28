@@ -113,11 +113,14 @@ main p {
 }
 
 #tecn picture {
-    display: block;
-    border: 1px solid black;
-    width: 300px;
-    height: 250px;
-    margin: 20px auto 20px auto;
+    display: flex;
+    margin: 0px auto;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+#tecn picture img {
+    margin: auto;
     border-radius: 12px;
 }
 
@@ -127,14 +130,24 @@ main p {
 }
 
 #tech-image {
-    background-image: url(/Images/tech_comp02.jpg);
+    display: grid;
+    background-image: url(../Images/tech_comp02-400x600.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    margin: 30px -10px;
+    gap: 10px;
+    margin: 10px -10px;
 
     min-height: 600px;
+}
+
+#tech-image>.box1 {
+    border: 1px solid black;
+}
+
+#tech-image>.box2 {
+    border: 1px solid red;
 }
 
 #service {
@@ -146,7 +159,6 @@ main p {
 }
 
 #service h3 {
-    display: ;
     text-align: center;
 }
 
@@ -182,4 +194,23 @@ main p {
     grid-column-end: 4;
     text-align: center;
     margin-top: 20px;
+}
+
+main #obj {
+    min-height: 400px;
+}
+
+main #obj ul {
+    padding: 10px 15px 10px 30px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+main #obj ul li {
+    list-style-type: upper-roman;
+}
+
+main #obj ul li:hover {
+    color: darkgreen;
+    cursor: pointer;
 }
